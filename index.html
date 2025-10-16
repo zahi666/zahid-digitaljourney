@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Digital Journey — Zahid</title>
+  <meta name="description" content="My Digital Journey — A personal tech blog and SEO practice site by Zahid.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <!-- Inline SVG logo: transparent background -->
+        <svg id="logo" width="64" height="64" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-label="Zahid logo">
+          <rect width="120" height="120" rx="18" fill="none" />
+          <!-- laptop / screen icon -->
+          <g transform="translate(18,20)">
+            <rect x="6" y="6" width="84" height="54" rx="6" fill="#A7C7E7" />
+            <rect x="12" y="12" width="72" height="40" rx="4" fill="#FFFFFF" />
+            <rect x="36" y="56" width="48" height="6" rx="3" fill="#5AD0E3" />
+          </g>
+          <!-- stylized Z symbol over screen -->
+          <path d="M28 34 L56 34 L40 58 L68 58" stroke="#F5EEDC" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(0,0)"/>
+        </svg>
+        <div class="brand-text">
+          <div class="name">Zahid</div>
+          <div class="tag">My Digital Journey</div>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="lang-switch">
+        <button id="btn-en">EN</button>
+        <button id="btn-ar">ع</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero card" data-lang="en">
+      <h1>Hello — I’m Zahid</h1>
+      <p class="lead">I’m a passionate learner exploring the world of SEO and digital technology. This site is my lab for writing, testing, and improving.</p>
+      <p><a class="cta" href="blog.html">Read my latest posts</a></p>
+    </section>
+
+    <section class="hero card" data-lang="ar" dir="rtl">
+      <h1>مرحبا — أنا زاهد</h1>
+      <p class="lead">أنا متعلم شغوف أستكشف عالم تحسين محركات البحث والتقنية الرقمية. هذا الموقع هو مختبري للكتابة والتجربة والتعلّم.</p>
+      <p><a class="cta" href="blog.html">اقرأ مقالاتي</a></p>
+    </section>
+
+    <section class="cards-grid">
+      <article class="card" data-lang="en">
+        <h2>Featured Project</h2>
+        <p>Phone Speed Test — A simple project measuring device performance and recommending optimizations.</p>
+        <p><a href="about.html">About me</a></p>
+      </article>
+
+      <article class="card" data-lang="ar" dir="rtl">
+        <h2>المشروع المميز</h2>
+        <p>اختبار سرعة الهاتف — مشروع بسيط لقياس أداء الأجهزة وتقديم توصيات لتحسينها.</p>
+        <p><a href="about.html">من أنا</a></p>
+      </article>
+
+      <article class="card" data-lang="en">
+        <h2>SEO Practice</h2>
+        <p>Try editing titles, meta descriptions and adding new posts inside /posts/ folder.</p>
+      </article>
+
+      <article class="card" data-lang="ar" dir="rtl">
+        <h2>تدريب السيو</h2>
+        <p>جرّب تعديل العناوين والوصف الميتا وإضافة مقالات جديدة داخل مجلد /posts/.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="small">© <strong>Zahid</strong> — My Digital Journey</div>
+      <div class="small">zahiiid92@gmail.com</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
